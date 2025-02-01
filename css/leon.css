@@ -321,7 +321,12 @@ body{
 }
 .portofolio .portofolio-content .card{
     background-color:white;
+
 }
+.portofolio .portofolio-content .card:hover{
+    border:1px solid #333 ;
+}
+
 @media (max-width: 767px){
     .portofolio .portofolio-content .card{
         text-align:center;
